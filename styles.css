@@ -1,9 +1,22 @@
+:root {
+  --color-text: #1a1a1a;
+  --color-background: #ffffff;
+  --color-accent: #1d4ed8;
+}
 body {
   font-family: system-ui, sans-serif;
   font-size: 1.125rem;
   line-height: 1.6;
-  color: #1a1a1a;
-  background-color: #ffffff;
+  color: var(--color-text);
+  background-color: var(--color-background);
   margin: 0;
   padding: 1rem;
+}
+header {
+  background-color: var(--color-accent);
+  color: #ffffff;
+  padding: 1rem;
+}
+h1 {
+   margin: 0;
 }
